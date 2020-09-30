@@ -1,5 +1,5 @@
 # Bludit-Bruteforcing-Script
-This script bruteforces the login page of Bludit cms version 3.9.2 
+This script is used to bruteforce the login page of Bludit cms version 3.9.2 
 
 
 Usage: python3 crackit.py username wordlist url
